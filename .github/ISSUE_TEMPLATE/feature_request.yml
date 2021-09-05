@@ -20,8 +20,8 @@ body:
     validations:
       required: false
 
-    - type: textarea
-      attributes:
-        label: Additional context
-      validations:
-        required: false
+  - type: textarea
+    attributes:
+      label: Additional context
+    validations:
+      required: false
