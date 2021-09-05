@@ -38,13 +38,8 @@ body:
       multiple: true
       options:
         - label: Windows
-          required: false
         - label: Mac
-          required: false
         - label: Linux
-          required: false
-        - label: any
-          required: false
 
   - type: dropdown
     attributes:
@@ -52,11 +47,7 @@ body:
       multiple: true
       options:
         - label: Google Chrome
-          required: false
         - label: Mozilla Firefox
-          required: false
-        - label: any
-          required: false
 
   - type: textarea
     attributes:
