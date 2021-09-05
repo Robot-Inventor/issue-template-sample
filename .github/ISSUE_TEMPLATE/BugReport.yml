@@ -1,16 +1,14 @@
 name: Bug Report
 description: Use this issue template when report bugs.
-title:
 labels: [bug]
-assignees:
 body:
-  - type: markdown
+  - type: textarea
     attributes:
       label: Describe the bug
     validations:
       required: true
 
-  - type: markdown
+  - type: textarea
     attributes:
       label: To Reproduce
       value: |
@@ -22,13 +20,13 @@ body:
     validations:
       required: true
 
-  - type: markdown
+  - type: textarea
     attributes:
       label: Expected behavior
     validations:
       required: true
 
-    - type: markdown
+    - type: textarea
       attributes:
         label: Screenshots
       validations:
@@ -58,7 +56,7 @@ body:
         - label: any
           required: false
 
-  - type: markdown
+  - type: textarea
     attributes:
       label: Additional context
     validations:
