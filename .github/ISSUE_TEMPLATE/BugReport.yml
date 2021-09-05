@@ -32,9 +32,10 @@ body:
     validations:
       required: false
 
-  - type: checkboxes
+  - type: dropdown
     attributes:
       label: OS
+      multiple: true
       options:
         - label: Windows
           required: false
@@ -45,9 +46,10 @@ body:
         - label: any
           required: false
 
-  - type: checkboxes
+  - type: dropdown
     attributes:
       label: Browser
+      multiple: true
       options:
         - label: Google Chrome
           required: false
