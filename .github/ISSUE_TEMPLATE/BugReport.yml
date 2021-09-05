@@ -1,0 +1,65 @@
+name: Bug Report
+description: Use this issue template when report bugs.
+title:
+labels: [bug]
+assignees:
+body:
+  - type: markdown
+    attributes:
+      label: Describe the bug
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      label: To Reproduce
+      value: |
+        Steps to reproduce the behavior:
+        1. Go to '...'
+        2. Click on '....'
+        3. Scroll down to '....'
+        4. See error
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+
+    - type: markdown
+      attributes:
+        label: Screenshots
+      validations:
+        required: false
+
+  - type: checkboxes
+    attributes:
+      label: OS
+      options:
+        - label: Windows
+          required: false
+        - label: Mac
+          required: false
+        - label: Linux
+          required: false
+        - label: any
+          required: false
+
+  - type: checkboxes
+    attributes:
+      label: Browser
+      options:
+        - label: Google Chrome
+          required: false
+        - label: Mozilla Firefox
+          required: false
+        - label: any
+          required: false
+
+  - type: markdown
+    attributes:
+      label: Additional context
+    validations:
+      required: false
