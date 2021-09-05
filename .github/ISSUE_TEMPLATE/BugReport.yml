@@ -26,11 +26,11 @@ body:
     validations:
       required: true
 
-    - type: textarea
-      attributes:
-        label: Screenshots
-      validations:
-        required: false
+  - type: textarea
+    attributes:
+      label: Screenshots
+    validations:
+      required: false
 
   - type: checkboxes
     attributes:
